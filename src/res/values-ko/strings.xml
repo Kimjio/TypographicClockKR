@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Time displayed on typographic clock face, which displays the time in words.
+             Example (4:29):
+    
+                 It's (지금은)
+                 Four (네시)
+                 Twenty (이십)
+                 Nine (구분)
+    
+         This string requires two arguments: the first in the hours of the time and
+         the second is the minutes of the time. The hours string is obtained from
+         string-array type_clock_hours below and the minutes string is obtained
+         from string-array type_clock_minutes below.
+    
+    [CHAR LIMIT=8] -->
+    <plurals name="type_clock_header">
+        <item quantity="one"><annotation name="color">지금은</annotation>\n^1\n^2</item>
+        <item quantity="few"><annotation name="color">지금은</annotation>\n^1\n^2</item>
+        <item quantity="other"><annotation name="color">지금은</annotation>\n^1\n^2</item>
+    </plurals>
+
+    <!-- Hour displayed in words on the typographic clock face. [CHAR LIMIT=12] -->
+    <string-array name="type_clock_hours_12">
+        <item>열두시</item>
+        <item>한시</item>
+        <item>두시</item>
+        <item>세시</item>
+        <item>네시</item>
+        <item>다섯시</item>
+        <item>여섯시</item>
+        <item>일곱시</item>
+        <item>여덟시</item>
+        <item>아홉시</item>
+        <item>열시</item>
+        <item>열한시</item>
+    </string-array>
+
+    <string-array name="type_clock_hours_24">
+        <item>자정</item>
+        <item>한시</item>
+        <item>두시</item>
+        <item>세시</item>
+        <item>네시</item>
+        <item>다섯시</item>
+        <item>여섯시</item>
+        <item>일곱시</item>
+        <item>여덟시</item>
+        <item>아홉시</item>
+        <item>열시</item>
+        <item>열한시</item>
+        <item>정오</item>
+        <item>열세시</item>
+        <item>열네시</item>
+        <item>열다섯시</item>
+        <item>열여섯시</item>
+        <item>열일곱시</item>
+        <item>열여덟시</item>
+        <item>열아홉시</item>
+        <item>스물시</item>
+        <item>스물한시</item>
+        <item>스물두시</item>
+        <item>스물네시</item>
+    </string-array>
+
+    <!-- Minutes displayed in words on the typographic clock face. [CHAR LIMIT=20] -->
+    <string-array name="type_clock_minutes">
+        <item>정각</item>
+        <item>일분</item>
+        <item>이분</item>
+        <item>삼분</item>
+        <item>사분</item>
+        <item>오분</item>
+        <item>육분</item>
+        <item>칠분</item>
+        <item>팔분</item>
+        <item>구분</item>
+        <item>십분</item>
+        <item>십일분</item>
+        <item>십이분</item>
+        <item>십삼분</item>
+        <item>십사분</item>
+        <item>십오분</item>
+        <item>십육분</item>
+        <item>십칠분</item>
+        <item>십팔분</item>
+        <item>십구분</item>
+        <item>이십분</item>
+        <item>이십\n일분</item>
+        <item>이십\n이분</item>
+        <item>이십\n삼분</item>
+        <item>이십\n사분</item>
+        <item>이십\n오분</item>
+        <item>이십\n육분</item>
+        <item>이십\n칠분</item>
+        <item>이십\n팔분</item>
+        <item>이십\n구분</item>
+        <item>삼십분</item>
+        <item>삼십\n일분</item>
+        <item>삼십\n이분</item>
+        <item>삼십\n삼분</item>
+        <item>삼십\n사분</item>
+        <item>삼십\n오분</item>
+        <item>삼십\n육분</item>
+        <item>삼십\n칠분</item>
+        <item>삼십\n팔분</item>
+        <item>삼십\n구분</item>
+        <item>사십분</item>
+        <item>사십\n일분</item>
+        <item>사십\n이분</item>
+        <item>사십\n삼분</item>
+        <item>사십\n사분</item>
+        <item>사십\n오분</item>
+        <item>사십\n육분</item>
+        <item>사십\n칠분</item>
+        <item>사십\n팔분</item>
+        <item>사십\n구분</item>
+        <item>오십분</item>
+        <item>오십\n일분</item>
+        <item>오십\n이분</item>
+        <item>오십\n삼분</item>
+        <item>오십\n사분</item>
+        <item>오십\n오분</item>
+        <item>오십\n육분</item>
+        <item>오십\n칠분</item>
+        <item>오십\n팔분</item>
+        <item>오십\n구분</item>
+    </string-array>
+
+    <!-- Name of the "Type" clock face [CHAR LIMIT=15]-->
+    <string name="clock_title_type">타입</string>
+</resources>
