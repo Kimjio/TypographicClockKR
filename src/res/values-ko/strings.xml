@@ -15,9 +15,9 @@
     
     [CHAR LIMIT=8] -->
     <plurals name="type_clock_header">
-        <item quantity="one"><annotation name="color">지금은</annotation> ^1 ^2</item>
-        <item quantity="few"><annotation name="color">지금은</annotation> ^1 ^2</item>
-        <item quantity="other"><annotation name="color">지금은</annotation> ^1 ^2</item>
+        <item quantity="one"><annotation name="color">지금은</annotation>\n^1\n^2</item>
+        <item quantity="few"><annotation name="color">지금은</annotation>\n^1\n^2</item>
+        <item quantity="other"><annotation name="color">지금은</annotation>\n^1\n^2</item>
     </plurals>
 
     <!-- Hour displayed in words on the typographic clock face. [CHAR LIMIT=12] -->
