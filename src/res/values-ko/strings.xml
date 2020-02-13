@@ -15,12 +15,27 @@
     
     [CHAR LIMIT=8] -->
     <plurals name="type_clock_header">
-        <item quantity="one"><annotation name="color">지금은</annotation>\n^1\n^2</item>
-        <item quantity="few"><annotation name="color">지금은</annotation>\n^1\n^2</item>
-        <item quantity="other"><annotation name="color">지금은</annotation>\n^1\n^2</item>
+        <item quantity="one"><annotation name="color">지금은</annotation> ^1 ^2</item>
+        <item quantity="few"><annotation name="color">지금은</annotation> ^1 ^2</item>
+        <item quantity="other"><annotation name="color">지금은</annotation> ^1 ^2</item>
     </plurals>
 
     <!-- Hour displayed in words on the typographic clock face. [CHAR LIMIT=12] -->
+    <string-array name="type_clock_hours">
+        <item>열두시</item>
+        <item>한시</item>
+        <item>두시</item>
+        <item>세시</item>
+        <item>네시</item>
+        <item>다섯시</item>
+        <item>여섯시</item>
+        <item>일곱시</item>
+        <item>여덟시</item>
+        <item>아홉시</item>
+        <item>열시</item>
+        <item>열한시</item>
+    </string-array>
+
     <string-array name="type_clock_hours_12">
         <item>열두시</item>
         <item>한시</item>
@@ -86,45 +101,45 @@
         <item>십팔분</item>
         <item>십구분</item>
         <item>이십분</item>
-        <item>이십\n일분</item>
-        <item>이십\n이분</item>
-        <item>이십\n삼분</item>
-        <item>이십\n사분</item>
-        <item>이십\n오분</item>
-        <item>이십\n육분</item>
-        <item>이십\n칠분</item>
-        <item>이십\n팔분</item>
-        <item>이십\n구분</item>
+        <item>이십 일분</item>
+        <item>이십 이분</item>
+        <item>이십 삼분</item>
+        <item>이십 사분</item>
+        <item>이십 오분</item>
+        <item>이십 육분</item>
+        <item>이십 칠분</item>
+        <item>이십 팔분</item>
+        <item>이십 구분</item>
         <item>삼십분</item>
-        <item>삼십\n일분</item>
-        <item>삼십\n이분</item>
-        <item>삼십\n삼분</item>
-        <item>삼십\n사분</item>
-        <item>삼십\n오분</item>
-        <item>삼십\n육분</item>
-        <item>삼십\n칠분</item>
-        <item>삼십\n팔분</item>
-        <item>삼십\n구분</item>
+        <item>삼십 일분</item>
+        <item>삼십 이분</item>
+        <item>삼십 삼분</item>
+        <item>삼십 사분</item>
+        <item>삼십 오분</item>
+        <item>삼십 육분</item>
+        <item>삼십 칠분</item>
+        <item>삼십 팔분</item>
+        <item>삼십 구분</item>
         <item>사십분</item>
-        <item>사십\n일분</item>
-        <item>사십\n이분</item>
-        <item>사십\n삼분</item>
-        <item>사십\n사분</item>
-        <item>사십\n오분</item>
-        <item>사십\n육분</item>
-        <item>사십\n칠분</item>
-        <item>사십\n팔분</item>
-        <item>사십\n구분</item>
+        <item>사십 일분</item>
+        <item>사십 이분</item>
+        <item>사십 삼분</item>
+        <item>사십 사분</item>
+        <item>사십 오분</item>
+        <item>사십 육분</item>
+        <item>사십 칠분</item>
+        <item>사십 팔분</item>
+        <item>사십 구분</item>
         <item>오십분</item>
-        <item>오십\n일분</item>
-        <item>오십\n이분</item>
-        <item>오십\n삼분</item>
-        <item>오십\n사분</item>
-        <item>오십\n오분</item>
-        <item>오십\n육분</item>
-        <item>오십\n칠분</item>
-        <item>오십\n팔분</item>
-        <item>오십\n구분</item>
+        <item>오십 일분</item>
+        <item>오십 이분</item>
+        <item>오십 삼분</item>
+        <item>오십 사분</item>
+        <item>오십 오분</item>
+        <item>오십 육분</item>
+        <item>오십 칠분</item>
+        <item>오십 팔분</item>
+        <item>오십 구분</item>
     </string-array>
 
     <!-- Name of the "Type" clock face [CHAR LIMIT=15]-->
